@@ -5,18 +5,18 @@ public class VariableAssignment
    public static void main(String[] args)
    {
      int score;
-     score = 4;
+     score = 20;
      System.out.println(score);
 
-     double price = 23.25;
+     double price = 27.99;
      System.out.println(price);
 
-     boolean won = false;
+     boolean won = true;
      System.out.println(won);
-     won = true;
+     won = false;
      System.out.println(won);
 
-     String name = "Jose";
+     String name = "Alexander Chen";
      System.out.println(name);
    }
 }
