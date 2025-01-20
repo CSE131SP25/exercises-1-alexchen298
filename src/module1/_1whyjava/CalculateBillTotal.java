@@ -4,7 +4,7 @@ public class CalculateBillTotal
 {
    public static void main(String[] args)
    {
-      System.out.println("Bill total:");
+      System.out.println("Bill total: 35");
 
    }
 }
