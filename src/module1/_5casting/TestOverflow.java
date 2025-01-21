@@ -4,7 +4,9 @@ public class TestOverflow
 {
    public static void main(String[] args)
    {
-     int id = 2147483650; // overflow error!
-     int negative = -2147483650; // overflow 
+     int id = 214748365; // overflow error!
+     int negative = -214748365; // overflow 
+     System.out.println(id);
+     System.out.println(negative);
    }
 }
