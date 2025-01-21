@@ -7,6 +7,6 @@ public class Test4
         String name = "Julian";
         String color = "green";
         String food = "pizza";
-        System.out.println();
+        System.out.println(name + "'s favorite color is " + color + ". His favorite food is " + food + ".");
     }
 }

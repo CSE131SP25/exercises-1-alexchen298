@@ -4,10 +4,10 @@ public class Test10
 {
     public static void main(String[] args)
     {
-      double goal =
-      double weeklyRate =
-      double numWeeks =
-      double numMonths =
+      double goal = 200;
+      double weeklyRate = 20;
+      double numWeeks = goal / weeklyRate;
+      double numMonths = numWeeks / 4;
       System.out.println(numMonths);
     }
 }

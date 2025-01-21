@@ -6,7 +6,7 @@ public class Test2
     {
         String name = "Carly";
         String color = "red";
-        System.out.println();
+        System.out.println("Your name is " + name + " and your favorite color is " + color);
     }
 
 }
