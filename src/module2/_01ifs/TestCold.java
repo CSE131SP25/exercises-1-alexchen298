@@ -10,9 +10,10 @@ public class TestCold
      System.out.println("Is it cold?");
      boolean isCold = scan.nextBoolean();
 
-     if (isCold);
+     if (isCold == true)
+     {
          System.out.println("Wear a coat");
          System.out.println("Wear gloves");
-
+     }
    }
 }
