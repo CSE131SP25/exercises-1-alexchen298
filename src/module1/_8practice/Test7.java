@@ -10,5 +10,6 @@ public class Test7
         double numGallons = totalFunds / gallonPrice;
         double numMiles = numGallons * milesPerGallon;
         System.out.println(numMiles);
+        
     }
 }

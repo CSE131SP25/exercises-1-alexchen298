@@ -7,7 +7,7 @@ public class DriversTest
    {
      Scanner scan = new Scanner(System.in);
      int age = scan.nextInt();
-     if (age >= 18)
+     if (age >= 16)
      {
          System.out.println("You can get a driver's license in most states!");
      }

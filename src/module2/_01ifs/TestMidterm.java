@@ -14,9 +14,9 @@ public class TestMidterm
      {
         System.out.println("Good job studying!");
      }
-     if (!passedExam)
+     else
      {
-        System.out.println("Study harder next time.");
+    	System.out.println("Study harder next time.");
      }
    }
 }
