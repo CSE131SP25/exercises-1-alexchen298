@@ -9,7 +9,7 @@ public class SongTest
       String line3 = "Take one down and pass it around";
 
       // loop 5 times (5, 4, 3, 2, 1)
-      for (int i = 5; i > 0; i--)
+      for (int i = 3; i > 0; i--)
       {
          System.out.println(i + line1);
          System.out.println(i + line2);
