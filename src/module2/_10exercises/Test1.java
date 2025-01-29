@@ -6,7 +6,7 @@ public class Test1
     {
         int num = (int) (Math.random() * 10);
         System.out.println(num);
-        if (num % 2 == 0) ;
+        if (num % 2 == 0) 
         {
             System.out.println("Your number is even");
         }

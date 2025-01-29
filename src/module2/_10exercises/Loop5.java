@@ -7,7 +7,6 @@ public class Loop5
         for (int x = 10; x >= 5; x--)
         {
            System.out.println(x);
-           x--;
         }
 
     }

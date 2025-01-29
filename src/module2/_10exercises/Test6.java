@@ -1,4 +1,4 @@
-package module2._10exercises;
+	package module2._10exercises;
 
 public class Test6
 {
