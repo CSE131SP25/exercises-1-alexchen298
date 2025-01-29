@@ -4,7 +4,7 @@ public class TestNum
 {
    public static void main(String[] args)
    {
-     int score = 10; // Try -10 and 110
+     int score = 110; // Try -10 and 110
      if (score < 0 || score > 100)
      {
          System.out.println("Score has an illegal value.");

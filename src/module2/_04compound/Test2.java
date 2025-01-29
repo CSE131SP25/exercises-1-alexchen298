@@ -4,7 +4,7 @@ public class Test2
 {
    public static void main(String[] args)
    {
-     boolean walking = false;
+     boolean walking = true;
      boolean carIsAvailable = false;
      if (walking || carIsAvailable)
      {

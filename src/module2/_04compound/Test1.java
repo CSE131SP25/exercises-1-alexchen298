@@ -6,7 +6,7 @@ public class Test1
    {
      boolean cleanedRoom = true;
      boolean didHomework = false;
-     if (cleanedRoom && didHomework)
+     if (cleanedRoom || didHomework)
      {
          System.out.println("You can go out");
      }
