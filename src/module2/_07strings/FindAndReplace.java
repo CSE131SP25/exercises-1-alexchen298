@@ -6,6 +6,7 @@ public class FindAndReplace
    {
      String message = "Have a 1ong and happy 1ife";
      int index = 0;
+     int counter = 0;
 
      // while more 1's in the message
      while (message.indexOf("1") >= 0)
@@ -19,8 +20,11 @@ public class FindAndReplace
         message = firstpart + "l" + lastpart;
         System.out.println("Replaced 1 with l at index " + index);
         System.out.println("The message is currently " + message + " but we aren't done looping yet!");
+        counter++;
      }
      System.out.println("Cleaned text: " + message);
+     System.out.println("Number of 1's Replaced: " + counter);
+     
    }
 }
 
