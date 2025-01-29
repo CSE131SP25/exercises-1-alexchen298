@@ -13,7 +13,7 @@ public class ReverseString
          // add the letter at index i to what's already reversed.
          sReversed = ithLetter + sReversed;
      }
-     System.out.println(s + " reversed is " + sReversed);
+     System.out.println(s + " reversed is " + sReversed);	
    }
  }
  
