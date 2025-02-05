@@ -6,7 +6,7 @@ public class OffByone
    {
        int[] scores = { 10, 9, 8, 7};
        // Make this loop print out all the scores!
-       for (int i = 1; i <= scores.length; i++)
+       for (int i = 0; i < scores.length; i++)
        {
             System.out.println(  scores[i] );
        }
