@@ -4,13 +4,23 @@ public class EvenLoop
 {
    public static void main(String[] args)
    {
-     int[ ] values = {6, 2, 1, 7, 12, 5};
+     int[ ] values = {6, 2, 1, 7, 12, 5, 3, 10, 12};
      // Rewrite this loop as a for each loop and run
-     for (int i=0; i < values.length; i++)
+     
+     for (int value: values)
      {
-       if (values[i] % 2 == 0)
-           System.out.println(values[i] + " is even!");
+    	 if (value % 2 == 0)
+    	 {
+    		 System.out.println(value + " is even!");
+    	 }
      }
    }
 }
-
+     
+     
+     
+     
+     
+     
+     
+     

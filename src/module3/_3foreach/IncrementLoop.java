@@ -6,16 +6,16 @@ public class IncrementLoop
    {
      int[ ] values = {6, 2, 1, 7, 12, 5};
      // Can this loop increment the values?
-     for (int val : values)
-     {
-       val++;
-       System.out.println("New val: " + val);
+     for (int i = 0; i < values.length; i++)
+     { 
+    	 values[i] = values[i]+1;
+       System.out.println("New val: " + values[i]);
      }
      // Print out array to see if they really changed
      System.out.println("Array after the loop: ");
      for (int v : values)
      {
-       System.out.print(v + " ");
+       System.out.print(v + " ");	
      }
    }
 }
