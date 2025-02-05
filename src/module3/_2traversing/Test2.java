@@ -4,7 +4,7 @@ public class Test2
 {
    public static void main(String[] args)
    {
-     String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia"};
+     String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia", "Alexander", "Hong"};
 
      for (int i = 0; i < names.length; i++)
      {

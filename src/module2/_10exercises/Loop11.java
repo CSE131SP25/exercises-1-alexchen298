@@ -14,7 +14,8 @@ public class Loop11
         	String firstpart = message.substring(0,i);
             String lastpart = message.substring(i+1);
             message = firstpart + "" + lastpart;
-            System.out.println("Removed x at index " + i);
+            System.out.println("Removed x at in"
+            		+ "dex " + i);
         }
         System.out.println(message);
 
